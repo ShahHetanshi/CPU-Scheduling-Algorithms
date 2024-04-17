@@ -1,0 +1,77 @@
+/* Reset default margin, padding, and font-size */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Button styles */
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Process button */
+.process-btn {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Hide element */
+.hide {
+    display: none;
+}
+
+/* Gantt chart */
+#gantt-chart {
+    height: 250px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/* Output */
+#output {
+    margin-top: 20px;
+}
